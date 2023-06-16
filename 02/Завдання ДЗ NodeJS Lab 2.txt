@@ -1,0 +1,9 @@
+Read file with text (200-400 words).
+Write all words with odd number of letters in file out-odd.txt
+Write all words with even number of letters in file out-even.txt
+
+Implement different cases as separate small programs:
+1) use sync file read API
+2) use async file read API with callbacks (only callbacks)
+3) use async file read API with promises (use API that returns promises, all callbacks should be wrapped in promises if needed)
+4) use async file read API with async/await functions (use API that returns promises, only async/await should be used to interact with promises)

@@ -1,0 +1,32 @@
+NodeJS: Lab 1
+Термін: 31 березня 2023 р., 02:59
+Інструкції
+Implement next tasks as small separate programs in separate files.
+Functions can be used, but they are not required for this tasks.
+
+1. Calculate solutions for a quadratic equation (квадратне рівняння).
+Predict 3 cases - 2, 1, 0 solutions.
+
+const a = 2, b = 3, c = -5; // expected x1 = -2.5, x2 = 1
+
+
+2. Check two strings if they are anagrams of one another.
+Use object to count string letters. Use cycle for-in to compare count of letters.
+
+// access to object props can be done via [] operator
+const letters = {};
+letters["a"] = 1;
+
+// if same letter is present again increase counter
+let letter = "b";
+letters[letter] += 1;
+
+
+3. Sort array via quick sort algorithm.
+const arr = [25, 4, 18, 14, 2, 9];
+
+
+4. Create an object to represent a student (name, email, isActive, group, list of courses).
+Initialize array of 5 students.
+Find user by name.
+Find all students that are attending certain course.
